@@ -1,0 +1,4 @@
+algoritmo,n,k,frio_ms,mediana_ms,promedio_ms,minimo_ms,repeticiones
+Counting Sort,950,86,0.287800,0.008100,0.008613,0.007600,1000
+Radix Sort,950,86,1.211900,0.041100,0.044056,0.034500,1000
+Bucket Sort,950,86,0.881100,0.018900,0.022003,0.017200,1000

@@ -44,7 +44,7 @@ java -jar target/ranking-terminos.jar corpus --corridas 10 --escalabilidad  # me
   procesador y un poco entre corridas; lo que se mantiene es el orden de magnitud y que Counting Sort
   es el más rápido. La clase `MedicionCompleta` calcula esas cifras igual que en el
   documento y las guarda en `resultados/tabla4_tiempos.csv`, `resultados/escalabilidad_n_mediana.csv`
-  y `resultados/escalabilidad_k_mediana.csv`.
+  y `resultados/escalabilidad_k_mediana.csv`. Las del documento son las que están hoy en `resultados/`.
 
 ## Abstracts
 
@@ -81,9 +81,11 @@ En la salida, la sección "Corpus" marca los abstracts vacíos, muy cortos o sin
 | `escalabilidad_n_mediana.csv`, `escalabilidad_k_mediana.csv` | Con `--corridas N --escalabilidad`: mediana de 3 corridas (Figuras 1 y 2) |
 | `corridas/` | Archivos de cada corrida individual |
 
-La carpeta `resultados_medicion/` tiene las corridas usadas en el documento de análisis:
-10 ejecuciones del programa (`tiempos_1.csv` … `tiempos_10.csv`, con su salida de consola) y
-3 ejecuciones del experimento de escalabilidad.
+La carpeta `resultados/` del repositorio guarda la medición usada en el documento, hecha con
+`MedicionCompleta` en un portátil AMD Ryzen 7 7435HS con Java 25 y Windows:
+`tabla4_tiempos.csv` (Tabla 4), `escalabilidad_n_mediana.csv` y `escalabilidad_k_mediana.csv`
+(Figuras 1 y 2), y en `corridas/` cada una de las 10 ejecuciones y de las 3 de escalabilidad.
+Al volver a ejecutar el programa estos archivos se sobrescriben con los tiempos del equipo actual.
 
 ## Estructura
 
