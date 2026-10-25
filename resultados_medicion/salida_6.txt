@@ -1,0 +1,54 @@
+=== Corpus ===
+Documentos: 20
+  1. Artificial intelligence literacy in hig...  186 palabras (leído del .txt)
+  2. Systematic literature review on opportu...  132 palabras (leído del .txt)
+  3. Myths mis and preconceptions of artific...  232 palabras (leído del .txt)
+  4. Opportunities of artificial intelligenc...  206 palabras (leído del .txt)
+  5. Application and theory gaps during the ...  254 palabras (leído del .txt)
+  6. A multi-perspective study on Artificial...  172 palabras (leído del .txt)
+  7. Human-centred learning analytics and AI...  223 palabras (leído del .txt)
+  8. A systematic review of artificial intel...  210 palabras (leído del .txt)
+  9. AI technologies for education Recent re...  160 palabras (leído del .txt)
+  10. Educational applications of artificial...  201 palabras (leído del .txt)
+  11. A scoping review on how generative art...  183 palabras (leído del .txt)
+  12. A meta systematic review of artificial...  257 palabras (leído del .txt)
+  13. Artificial intelligence for education ...  248 palabras (leído del .txt)
+  14. A comprehensive exploration of artific...  155 palabras (leído del .txt)
+  15. A Systematic Review of Generative AI f...  216 palabras (leído del .txt)
+  16. Generative Artificial Intelligence in ...  152 palabras (leído del .txt)
+  17. A Systematic Review of AI-Driven Educa...  200 palabras (leído del .txt)
+  18. Transforming Education A Comprehensive...  203 palabras (leído del .txt)
+  19. What Is the Impact of ChatGPT on Educa...  202 palabras (leído del .txt)
+  20. Systematic review of research on artif...  216 palabras (leído del .txt)
+
+Tokens tras preprocesamiento: 2407 | Términos distintos (n): 950 | k = max - min + 1: 86
+
+=== Tiempos de ejecución (ms) ===
+Algoritmo            En frío      Mediana     Promedio       Mínimo
+Counting Sort         0.2312       0.0048       0.0051       0.0042
+Radix Sort            0.9315       0.0191       0.0229       0.0178
+Bucket Sort           0.8036       0.0188       0.0197       0.0157
+(mediana, promedio y mínimo sobre 1000 ejecuciones tras el calentamiento)
+
+=== Top 15 términos más frecuentes ===
+#   Counting Sort               Radix Sort                  Bucket Sort                 
+1   ai (86)                     ai (86)                     ai (86)                     
+2   education (57)              education (57)              education (57)              
+3   research (46)               research (46)               research (46)               
+4   learning (40)               learning (40)               learning (40)               
+5   aied (38)                   aied (38)                   aied (38)                   
+6   review (36)                 review (36)                 review (36)                 
+7   educational (33)            educational (33)            educational (33)            
+8   assessment (32)             assessment (32)             assessment (32)             
+9   intelligence (23)           intelligence (23)           intelligence (23)           
+10  artificial (22)             artificial (22)             artificial (22)             
+11  studies (21)                studies (21)                studies (21)                
+12  higher (16)                 higher (16)                 higher (16)                 
+13  literature (15)             literature (15)             literature (15)             
+14  technologies (15)           technologies (15)           technologies (15)           
+15  systematic (15)             systematic (15)             systematic (15)             
+
+Los tres algoritmos producen exactamente el mismo ranking completo: SÍ
+El ranking está en orden descendente de frecuencia: SÍ
+
+Resultados guardados en /tmp/claude-0/-home-claude/2719bd33-cc24-5070-8860-9984142a1b72/scratchpad/real/resultados
